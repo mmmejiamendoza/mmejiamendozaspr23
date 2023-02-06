@@ -1,0 +1,26 @@
+package com.mycompany.lab2;
+
+import java.util.Scanner;
+
+public class Lab2 {
+
+    public static void main(String[] args) {
+        Scanner myScanner = new Scanner(System.in);
+        
+        System.out.println("Enter Full Name: ");
+        String name = myScanner.nextLine();
+        System.out.println("Your full name is "+name+"");
+        
+        System.out.println("Enter Address: ");
+        String address = myScanner.nextLine();
+        System.out.println("Your address is "+address+"");
+        
+        System.out.println("Enter Date Of Birth: ");
+        String dob = myScanner.nextLine();
+        System.out.println("Your Date Of Birth is "+dob+"");
+        
+        System.out.println("Enter phone number: ");
+        String phone = myScanner.nextLine();
+        System.out.println("Your address is "+phone+"");
+    }
+}
